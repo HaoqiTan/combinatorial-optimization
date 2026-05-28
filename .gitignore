@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Env & secrets
+.env
+*.key
+
+# Data (too large for GitHub)
+data/
+*.zip
+wandb/
+
+# Model checkpoints
+*_checkpoints/
+final_*/
+finetuned-*/
+results/
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
